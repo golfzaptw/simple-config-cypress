@@ -1,5 +1,6 @@
 {
+    "baseUrl": "https://google.co.th",
     "env": {
-        "host": "google.co.th"
+        "server": "dev"
     }
 }

@@ -1,5 +1,6 @@
 {
+    "baseUrl": "https://www.youtube.com/",
     "env": {
-        "host": "facebook.com"
+        "server": "staging"
     }
 }

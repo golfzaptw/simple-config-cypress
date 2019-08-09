@@ -1,0 +1,17 @@
+{
+  "name": "simple-config-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/golfzaptw/simple-config-cypress.git",
+  "author": "Patawee Boonsongsri <psgolf16@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^3.4.1"
+  },
+  "scripts": {
+    "cypress": "cypress",
+    "cypress:openDev": "cypress open --env configFile=dev",
+    "cypress:openStage": "cypress open --env configFile=staging",
+    "cypress:openProd": "cypress open --env configFile=prod"
+  }
+}
